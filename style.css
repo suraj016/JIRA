@@ -1,0 +1,193 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#BE9FE1;
+}
+.toolbox-cont{
+    height: 7rem;
+    background-color: #11999E;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Dispaly flex jispe be lgana hota hae uske parent ko dena hota hae taki ke child element align ho jaye */
+
+ .toolbox-priority-cont{
+    height: 5rem;
+    background-color: #F2C6B4;
+    width:20rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.action-button-cont{
+    background-color: #FFC93C;
+   height: 5rem;
+   width: 20rem;
+   margin-left: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 3px;
+}
+
+.appname{
+    background-color: #A7FF83;
+    height: 5rem;
+    width: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+h1{
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 20%;
+}
+.color{
+    height: 2rem;
+    width: 3rem;
+    background-color: aliceblue;
+    margin-left: 1.5rem;
+   
+   
+}
+
+.lightpink{
+    background-color: lightsalmon;
+}
+.green{
+    background-color: green;
+}
+.brown{
+    background-color: brown;
+}
+.black{
+    background-color: black;
+}
+
+.add-btn{
+    font-size: 2.5rem;
+}
+.remove-btn{
+    font-size: 2.5rem;
+}
+
+
+
+/* completed with first section which is nav part */
+
+
+
+.modal-cont{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+background-color:#64A36F;
+height: 50vh;
+width: 50vw;
+ 
+display: none;
+
+}
+
+.modals-cont{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+
+height: 50vh;
+width: 50vw;
+ 
+display: none;
+}
+
+
+
+.textarea-cont{
+ outline: none;
+ resize: none;
+ border: none;
+ background-color: #B4FF9F;
+ height: 100%;
+ width: 75%;
+ font-size: xx-large;
+ padding: 2rem;
+
+}
+.textarearinfo-cont{
+    outline: none;
+ resize: none;
+ border: none;
+ 
+ height: 100%;
+ width: 75%;
+ font-size: xx-large;
+ padding: 2rem;
+    background-color:#17B978;
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.priority-color{
+    height: 2rem;
+    width: 4rem;
+}
+.active{
+    border: 4px solid #305F72;
+}
+
+.main-cont{
+ margin-top: 3rem;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ gap: 2rem;
+ 
+ 
+}
+.ticket-cont{
+    background-color: #ABEDD8;
+      height: 10rem;
+      width: 20rem;
+}
+.ticket-color{
+height: 1rem;
+}
+.ticket-id{
+height: 1rem;
+background-color: #DF7861;
+}
+.task-area{
+height: 6rem;
+padding: 7px;
+font-size: 1.25rem;
+overflow: auto;
+} 
+
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    padding-left: 18rem;
+}
+
+
+
+
+
+
